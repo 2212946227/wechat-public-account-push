@@ -8,35 +8,35 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx18d8a5d0d9ac1f17',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '254d448bc9b4778e8b919781af037bae',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '宁夏回族自治区',
+  CITY: '银川',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '小伊呀~~~',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'ovi5z6ieNl4KC8jpV5H1eT28l2sI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: '-Tp6-BlccXf-gp_to8KdN800XP57X4B5SJWY7RxDWiM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '02-25',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '*生日', name: '宝贝', year: '2003', date: '02-25',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '李四', year: '1996', date: '09-31',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '相识纪念日', year: '2022', date: '10-09',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -51,13 +51,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: '-Tp6-BlccXf-gp_to8KdN800XP57X4B5SJWY7RxDWiM',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'ovi5z6uNe8et6rA0ycKqVI2WiPM8',
     }
   ],
 
