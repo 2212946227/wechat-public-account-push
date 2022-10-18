@@ -11,7 +11,7 @@ const USER_CONFIG = {
   APP_ID: 'wx18d8a5d0d9ac1f17',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '254d448bc9b4778e8b919781af037bae',
+  APP_SECRET: '7ea602444ef113d242f7a12eae139927',
 
   PROVINCE: '银川',
   CITY: '西夏区',
