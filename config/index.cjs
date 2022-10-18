@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: '7ea602444ef113d242f7a12eae139927',
 
   PROVINCE: '银川',
-  CITY: '西夏区',
+  CITY: '银川',
 
   USERS: [
     {
